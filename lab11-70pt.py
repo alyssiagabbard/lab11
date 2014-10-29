@@ -15,7 +15,7 @@ drawpad.grid(row=0, column=0)
 
 # Create the oval
 circle = drawpad.create_oval(20, 20, 100, 100, fill='green')
-direction = 1
+direction = 5
 # Create our animation function
 def animate():
     global direction
